@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    font-size: 22px;
+}
+body{
+    background-color: #353b48;
+}
+.box{
+   height: 8rem;
+   border: 5px solid white;
+   overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+.box img:hover{
+    transform: scale(1.5);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 1rem;
+}
+.control{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.btn-group .btn{
+    width: 100px;
+    border: none;
+    height: 30px;
+    background-color: #00b894;
+    color: #ffff;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    border: 2px solid #00b894;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+.btn-group .btn:hover,
+.btn-group .btn-clicked{
+    background-color: #353b48;
+
+}
+#Search{
+    width: 200px;
+    height: 30px;
+    outline-style: none;
+    border-radius: 3px;
+    padding: 0px 10px;
+    border: none;
+    font-size: 0.6rem;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
